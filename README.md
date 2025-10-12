@@ -96,13 +96,20 @@ Create a `.env` file in the root directory:
 cp .env.example .env
 ```
 
-Edit `.env` and add your Mailtrap credentials:
+Edit `.env` and configure:
 ```env
-MAILTRAP_HOST=sandbox.smtp.mailtrap.io
-MAILTRAP_PORT=2525
+# Required: Mailtrap credentials
 MAILTRAP_USER=your_mailtrap_user
 MAILTRAP_PASS=your_mailtrap_password
+
+# Optional: Custom ports (defaults shown)
+FRONTEND_PORT=5173
+BACKEND_PORT=3000
+POSTGRES_PORT=5432
+REDIS_PORT=6379
 ```
+
+> **Note:** All variables have sensible defaults. Only `MAILTRAP_USER` and `MAILTRAP_PASS` are required.
 
 3. **Start the application**
 ```bash
@@ -241,13 +248,33 @@ ligthit-challenge/
 
 ## 🔧 Environment Variables
 
-See `.env.example` files for required environment variables.
+All configuration is done through environment variables in the root `.env` file.
 
-**Root `.env`:**
-- `MAILTRAP_HOST` - Mailtrap SMTP host
-- `MAILTRAP_PORT` - Mailtrap SMTP port
-- `MAILTRAP_USER` - Mailtrap username
-- `MAILTRAP_PASS` - Mailtrap password
+### Required Variables
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `MAILTRAP_USER` | Mailtrap username | `abc123def456` |
+| `MAILTRAP_PASS` | Mailtrap password | `xyz789uvw012` |
+
+### Optional Variables (with defaults)
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `FRONTEND_PORT` | Frontend port | `5173` |
+| `BACKEND_PORT` | Backend API port | `3000` |
+| `POSTGRES_PORT` | PostgreSQL port | `5432` |
+| `REDIS_PORT` | Redis port | `6379` |
+| `POSTGRES_USER` | Database user | `postgres` |
+| `POSTGRES_PASSWORD` | Database password | `postgres` |
+| `POSTGRES_DB` | Database name | `patients_db` |
+| `NODE_ENV` | Node environment | `development` |
+| `MAILTRAP_HOST` | SMTP host | `sandbox.smtp.mailtrap.io` |
+| `MAILTRAP_PORT` | SMTP port | `2525` |
+
+### Benefits of Environment Variables
+- ✅ **Flexibility** - Change ports without editing docker-compose.yml
+- ✅ **Multiple environments** - Different configs for dev/staging/prod
+- ✅ **Security** - Credentials not hardcoded
+- ✅ **Portability** - Easy deployment to different servers
 
 ## 🧪 Testing
 
