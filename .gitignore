@@ -45,3 +45,9 @@ coverage/
 
 # Docker
 *.env.docker
+
+# Local documentation (for personal study)
+docs/
+ARCHITECTURE.md
+QUICKSTART.md
+SETUP.md
