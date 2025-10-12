@@ -13,26 +13,34 @@
     "lint": "eslint src --ext .ts",
     "format": "prettier --write \"src/**/*.ts\""
   },
-  "keywords": ["patient", "registration", "api"],
+  "keywords": [
+    "patient",
+    "registration",
+    "api"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@prisma/client": "^5.19.0",
-    "express": "^4.19.2",
+    "bullmq": "^5.12.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "multer": "^1.4.5-lts.1",
+    "express": "^4.19.2",
     "express-validator": "^7.2.0",
-    "bullmq": "^5.12.0",
+    "ioredis": "^5.4.1",
+    "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.14",
-    "ioredis": "^5.4.1"
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "@types/express": "^4.17.21",
     "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
     "@types/multer": "^1.4.12",
     "@types/node": "^22.5.0",
     "@types/nodemailer": "^6.4.15",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.0",

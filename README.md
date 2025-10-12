@@ -117,6 +117,7 @@ docker-compose exec backend npx prisma migrate deploy
 5. **Access the application**
 - 🌐 **Frontend**: http://localhost:5173
 - 🔌 **Backend API**: http://localhost:3000
+- 📚 **API Documentation (Swagger)**: http://localhost:3000/api-docs
 - 📧 **Mailtrap**: Check your inbox for confirmation emails
 - 🗄️ **PostgreSQL**: localhost:5432 (user: postgres, password: postgres)
 - 🔴 **Redis**: localhost:6379
