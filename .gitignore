@@ -45,3 +45,6 @@ coverage/
 
 # Docker
 *.env.docker
+
+# Documentation (local only)
+docs/
